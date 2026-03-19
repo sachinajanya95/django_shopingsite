@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-b90kpu*2u97u=i@f-dy76(no^g+ta+^+d_08@9b&lc&gt3ecq1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ALLOWED_HOSTS = ['django-shopingsite-6.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ALLOWED_HOSTS = ['django-shopingsite-7.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
