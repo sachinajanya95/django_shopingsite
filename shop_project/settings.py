@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-b90kpu*2u97u=i@f-dy76(no^g+ta+^+d_08@9b&lc&gt3ecq1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ALLOWED_HOSTS = ['django-shopingsite-6.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -129,3 +129,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
+
+
+import os
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
