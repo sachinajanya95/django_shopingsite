@@ -69,7 +69,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'shop_project.wsgi.application'
-
+import os
 import dj_database_url
 
 DATABASES = {
